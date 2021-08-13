@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #393A42;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #393A42;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+
+.wi-fi {
+    width: 260px;
+    height: 260px;
+    background-color: #393A42;
+    border-radius: 0 270px 0 0;
+    margin-left: 123px;
+    transform-origin: 82% 93%;
+    transform: rotateZ(-43deg);
+    animation: wi-fi 1.25s ease-out 1.2s infinite alternate;
+ 
+}
+
+.wi-fi::before {
+    content: "";
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    background-color: #393A42;
+    margin-left: 123px;
+    transform-origin: 82% 93%;
+    border-radius: 0 270px 0 0;
+    top: 35px;
+    left: -123px;
+}
+
+.wi-fi1 {
+    width: 195px;
+    height: 195px;
+    background-color: #393A42;
+    border-radius: 0 270px 0 0;
+    margin-left: 123px;
+    transform-origin: 82% 93%;
+    transform: rotateZ(0deg);
+    position: absolute;
+    top: 65px;
+    left: -123px;
+    animation: wi-fi1 1.25s ease-out .8s infinite alternate;
+}
+
+.wi-fi1::before {
+    content: "";
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    background-color: #393A42;
+    margin-left: 123px;
+    transform-origin: 82% 93%;
+    border-radius: 0 270px 0 0;
+    top: 30px;
+    left: -123px;
+}
+
+.wi-fi2 {
+    width: 140px;
+    height: 140px;
+    background-color: #393A42;
+    border-radius: 0 270px 0 0;
+    margin-left: 123px;
+    transform-origin: 82% 93%;
+    transform: rotateZ(0deg);
+    position: absolute;
+    top: 120px;
+    left: -123px;
+    animation: wi-fi2 1.25s ease-out .4s infinite alternate;
+}
+
+.wi-fi2::before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-color: #393A42;
+    margin-left: 123px;
+    transform-origin: 82% 93%;
+    border-radius: 0 270px 0 0;
+    top: 30px;
+    left: -123px;
+}
+
+.wi-fi3 {
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    border-radius: 0 270px 0 0;
+    margin-left: 123px;
+    transform-origin: 82% 93%;
+    position: absolute;
+    top: 185px;
+    left: -123px;
+}
+
+
+@keyframes wi-fi2 {
+    0%, 50% {
+        background-color: #393A42;
+    }
+    100% {
+        background-color: #43444A;
+    }
+}
+
+@keyframes wi-fi1 {
+    0%, 50% {
+        background-color: #393A42;
+    }
+    100% {
+        background-color: #55545B;
+    }
+}
+
+@keyframes wi-fi {
+    0%, 50% {
+        background-color: #393A42;
+    }
+    100% {
+        background-color: #6A6970;
+    }
+}
+
